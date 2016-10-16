@@ -16,7 +16,7 @@ def func(docs_dir):
     logging.debug('yaml context:{}'.format(config))
     
 
-    config['pages'] = config.get('pages', []) 
+    config['pages'] = [] 
     config['docs_dir'] = docs_dir
     for root, dirs, files in os.walk(docs_dir):
         for file in filter(lambda x: x.endswith('.md'), files):
@@ -32,4 +32,4 @@ def func(docs_dir):
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.WARNING)
-    func('/vagrant/notebook/')
+    func('docs')

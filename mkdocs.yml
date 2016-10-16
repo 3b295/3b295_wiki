@@ -1,15 +1,17 @@
-docs_dir: /vagrant/notebook/
+docs_dir: docs
 pages:
 - [index.md, index]
-- [flask study/ipython.md, ipython]
-- ["flask study/\u8DEF\u7531\u89C4\u5219.md", "\u8DEF\u7531\u89C4\u5219"]
-- [nginx study/chapter1.md, chapter1]
-- [python study/chapter 1.md, chapter 1]
-- [python study/context.md, context]
-- [python study/descriptor.md, descriptor]
-- [python study/mate.md, mate]
-- [python study/parameter.md, parameter]
+- ["flask/\u8DEF\u7531\u89C4\u5219.md", "\u8DEF\u7531\u89C4\u5219"]
+- [flask/ipython.md, ipython]
+- [nginx/nginx.md, nginx]
+- [python/descriptor.md, descriptor]
+- [python/context.md, context]
+- [python/parameter.md, parameter]
+- [python/mate.md, mate]
+- ["python/\u57FA\u7840\u5E93.md", "\u57FA\u7840\u5E93"]
+repo_url: https://github.com/3b295/3b295_wiki
 site_auther: 3b295
+site_dir: wiki
 site_name: wiki
-site_url: http://3b295.me
+site_url: http://wiki.3b295.me
 theme: readthedocs
